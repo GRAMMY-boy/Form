@@ -5,7 +5,7 @@
 }
 
 body{
-    background: rgb(255, 255, 255);
+    background: white;
 }
 .form-box{
     width: 380px;
@@ -15,6 +15,7 @@ body{
     background: rgba(0,0,0,0.3);
     padding: 10;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .button-box{
@@ -23,6 +24,10 @@ body{
     position: relative;
     box-shadow: 0 0 20px 9px #2826251f;
     border-radius: 10px;
+}
+
+.button-box button{
+    color: white;
 }
 
 .toggle-btn{
@@ -39,8 +44,83 @@ body{
     left: 0;
     position: absolute;
     width: 110px;
-    height: 100px;
-    background: #f3c693;
+    height: 35px;
+    background: black;
     border-radius: 10px;
-    
+    transition: .5s;
+}
+
+.input-group-register{
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: black;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.check-box{
+    margin: 30px 10px 34px 10px;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    padding-left: 10px;
+    bottom: 59px;
+    position: absolute;
+}
+
+#register{
+    left: 50px;
+}
+
+#register input{
+    color: white;
+    font-size: 15px;
+}
+
+#register button{
+    margin-top: 20px;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon ion-icon{
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+    margin-left: 80px;
+    margin-top: 310px;
+}
+
+.icon ion-icon:hover{
+    color: black;
 }
