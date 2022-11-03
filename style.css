@@ -84,13 +84,18 @@ body{
 
 .check-box{
     margin: 30px 10px 34px 10px;
+
+}
+
+input[type='checkbox'] {
+    accent-color: black;
 }
 
 span{
     color: #777;
     font-size: 12px;
     padding-left: 10px;
-    bottom: 59px;
+    bottom: 54px;
     position: absolute;
 }
 
